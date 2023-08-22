@@ -13,7 +13,7 @@ import java.util.List;
 public class ExaminerServiceImpl implements ExaminerService {
     private  final JavaQuestionService javaQuestionService;
 
-    public ExaminerServiceImpl(@Qualifier("JavaQuestionRepository")JavaQuestionService javaQuestionService) {
+    public ExaminerServiceImpl(@Qualifier("javaQuestionRepository")JavaQuestionService javaQuestionService) {
         this.javaQuestionService = javaQuestionService;
     }
 

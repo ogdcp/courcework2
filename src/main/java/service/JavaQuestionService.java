@@ -13,7 +13,7 @@ import java.util.Random;
 public class JavaQuestionService implements QuestionService {
     private final QuestionRepository javaQuestionRepository;
 
-    public JavaQuestionService(@Qualifier("JavaQuestionRepository") QuestionRepository javaQuestionRepository) {
+    public JavaQuestionService(@Qualifier("javaQuestionRepository") QuestionRepository javaQuestionRepository) {
         this.javaQuestionRepository = javaQuestionRepository;
     }
 
