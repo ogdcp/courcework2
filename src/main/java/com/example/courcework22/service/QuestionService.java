@@ -1,10 +1,10 @@
-package service;
+package com.example.courcework22.service;
 
 
 
 
 
-import model.Question;
+import com.example.courcework22.model.Question;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package service;
+package com.example.courcework22.service;
 
 
 
-import model.Question;
+import com.example.courcework22.model.Question;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.List;
 public class ExaminerServiceImpl implements ExaminerService {
     private  final JavaQuestionService javaQuestionService;
 
-    public ExaminerServiceImpl(@Qualifier("javaQuestionRepository")JavaQuestionService javaQuestionService) {
+    public ExaminerServiceImpl(@Qualifier("javaQuestionService")JavaQuestionService javaQuestionService) {
         this.javaQuestionService = javaQuestionService;
     }
 

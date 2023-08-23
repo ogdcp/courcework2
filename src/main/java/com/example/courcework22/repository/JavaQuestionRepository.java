@@ -1,12 +1,13 @@
-package repository;
+package com.example.courcework22.repository;
 
 
 
-import model.Question;
+import com.example.courcework22.model.Question;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Repository
 public class JavaQuestionRepository implements QuestionRepository {
     List<Question> javaList = new ArrayList<>(List.of(
             new Question("int какого типа переменная?","Целочисленная"),

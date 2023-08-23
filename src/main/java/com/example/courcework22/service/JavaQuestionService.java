@@ -1,12 +1,11 @@
-package service;
+package com.example.courcework22.service;
 
 
-import model.Question;
+import com.example.courcework22.model.Question;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import repository.QuestionRepository;
+import com.example.courcework22.repository.QuestionRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 @Service

@@ -1,4 +1,4 @@
-package model;
+package com.example.courcework22.model;
 
 import java.util.Objects;
 

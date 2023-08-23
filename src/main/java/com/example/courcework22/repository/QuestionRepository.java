@@ -1,9 +1,9 @@
-package repository;
+package com.example.courcework22.repository;
 
 
 
 
-import model.Question;
+import com.example.courcework22.model.Question;
 
 import java.util.List;
 
